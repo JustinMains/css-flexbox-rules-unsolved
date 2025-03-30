@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/authentication-form.css" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <link rel="stylesheet" href="../css/authentication-form.css"/>
     <title>Login and Signup</title>
   </head>
   <body class="bg-white">
@@ -21,6 +21,7 @@
         </ul>
       </nav>
     </header>
+   
     <div class="content">
       <div id="sign-in">
         <div class="form-header">
@@ -28,6 +29,7 @@
           <p class="subtext">for existing users</p>
         </div>
         <!-- Sign IN form starts here -->
+        
         <form id="sign-in-form">
           <div class="form-input-control">
             <label for="login-field">Login</label>
@@ -38,7 +40,7 @@
               required
             />
           </div>
-          <div class="form-input-control">
+          <div class="form-input-control" >
             <label for="password-field">Password</label>
             <input
               type="password"
@@ -48,22 +50,23 @@
               required
             />
           </div>
-          <div class="form-checkbox-control">
+          <div class="form-checkbox-control sign-in-Checkbox">
             <input type="checkbox" id="stay-signed-in" />
             <label for="stay-signed-in">Stay signed in</label>
           </div>
-          <hr />
+          <hr/>
           <div class="form-submit-control">
-            <input type="submit" value="Sign in" />
+            <input  class="sign-in-button" type="submit" value="Sign In" />
             <a href="/#">Forgot your password?</a>
           </div>
         </form>
+      
         <!-- Sign IN form ends here -->
       </div>
       <div id="sign-up">
         <div class="form-header">
           <h2>Sign up</h2>
-          <p class="subtext">for new users</p>
+          <p class="Subtext">for new users</p>
         </div>
         <!-- Sign UP form starts here -->
         <form id="sign-up-form">
@@ -108,7 +111,7 @@
               required
             />
           </div>
-          <div class="form-input-control">
+          <div class="form-input-control ">
             <label for="phone">Phone number</label>
             <input
               type="tel"
@@ -132,7 +135,7 @@
                 <option value="SD">South Dakota</option>
               </select>
             </div>
-            <div class="form-input-control">
+            <div class="form-input-control" >
               <label for="city">City</label>
               <select id="city">
                 <option value="" disabled selected>Select your city</option>
@@ -165,13 +168,13 @@
               </div>
             </div>
           </div>
-          <hr />
+          <hr/>
           <div class="form-submit-control">
-            <input type="submit" value="Sign up" />
+            <input type="submit" value="Sign up"/>
           </div>
         </form>
+      </div>
         <!-- Sign UP form ends here -->
       </div>
-    </div>
   </body>
 </html>
