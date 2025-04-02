@@ -55,8 +55,9 @@ section {
 }
 
 .search-bar {
-  gap: 100px;
+  gap: 200px;
   display: flex;
+  align-items: center;
   width: 400px;
   background: #1f1f27;
   padding: 10px 20px;
@@ -79,9 +80,8 @@ section {
 
 .options {
    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
+   align-items: center;
+   gap: 30px;
 }
 
 .option {
@@ -248,15 +248,19 @@ i.fa-th-list{
   
   
 }
+.grid .product-data .product-name {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
 
 .grid .product-info {
-  
   height: 200px;
   display: flex;
   flex-direction: column;
-  gap: 20px 20px;
   text-align: center;
-  padding: 0 20px 30px;
+  gap: 10px;
+  padding: 0 30px 40px;
 }
 
 .grid .product-action {
