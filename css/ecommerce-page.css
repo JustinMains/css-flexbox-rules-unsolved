@@ -37,9 +37,11 @@ section {
 }
 
 .header-content {
+ 
   display: flex;
+  align-items: center;
   justify-content: flex-end;
-    gap: 80px;
+  gap: 80px;
 }
 
 .logo-search {
